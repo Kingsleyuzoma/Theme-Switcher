@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s, color 0.5s;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 90%;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.light {
+    background: #f4f4f4;
+    color: #222;
+}
+
+.light .buttons button {
+    background: #fff;
+    color: #222;
+    border: 1px solid #ccc;
+}
+
+.dark {
+    background: #222;
+    color: #fff;
+}
+
+.dark .buttons button {
+    background: #444;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.purple {
+    background: #4b0082;
+    color: #fff;
+}
+
+.purple .buttons button {
+    background: #fff;
+    color: #4b0082;
+    border: 1px solid #fff;
+}
+
+
+
+.green {
+    background: #008230;
+    color: #fff;
+}
+
+.green .buttons button {
+    background: #fff;
+    color: #008230;
+    border: 1px solid #fff;
+}
+
+
+.yellow {
+    background: #ffff00;
+    color: #fff;
+}
+
+.yellow .buttons button {
+    background: #fff;
+    color: #ffff00;
+    border: 1px solid #fff;
+}
+
+.red {
+    background: #ff0000;
+    color: #fff;
+}
+
+.red .buttons button {
+    background: #fff;
+    color: #ff0000;
+    border: 1px solid #fff;
+}
+
+.blue {
+    background: #2706a0;
+    color: #fff;
+}
+
+.blue .buttons button {
+    background: #fff;
+    color: #2706a0;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .buttons button {
+        margin: 5px 5px;
+        font-size: 0.9rem;
+    }
+}
